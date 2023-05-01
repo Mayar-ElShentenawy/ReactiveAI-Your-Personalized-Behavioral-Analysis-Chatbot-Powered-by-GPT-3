@@ -1,5 +1,16 @@
-# ReactiveAI_Your Personalized Behavioral Analysis Chatbot Powered by GPT-3.
-The purpose of our project is to develop an intelligent, behavioral, reactive AI chatbot that can assess user behavior's and offer personalized solutions to people experiencing psychological issues like loneliness. Our strategy, which is based on the learning agent model, aims to improve human lives by providing intelligent and tailored assistance.
-We are utilizing the most recent developments in natural language generation, including GPT-3's visual question responding, which combines visual inputs like images and videos with natural language queries and answers to text, speech, and facial expressions, to improve the chatbot's natural language processing capabilities. Our chatbot will combine interaction and communication with natural language generation (NLG) to not only answer to user requests but also to offer corrections. We can write enormous quantities of high-quality copy using GPT-3, which has been trained to generate genuine human text. It has been used to make articles, poems, novels, news reports, and dialogue with only a little quantity of input text.
-In order to analyse user behaviour and produce personalised responses, we have also incorporated a Hidden Markov Model (HMM). Additionally, to improve the user experience and make the conversation with the user more human-like, we created an AI avatar that will simulate face and body movements to convey emotions and reactions during the conversation.
-Our system is made to categorise users into age groups (children, teens, adults, and seniors), allowing us to offer tailored assistance in line with each person's age and stage of life. Our ultimate goal is to develop an AI system that can respond intelligently to human activity and offer personalised assistance to people struggling with psychological issues like loneliness.
+# flutter_app_grad
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
