@@ -27,11 +27,11 @@ class _MyChatScreenState extends State<ChatPage> {
               controller: _textController,
               onSubmitted: _handleSubmitted,
               decoration:
-                  InputDecoration.collapsed(hintText: "Send a message"),
+                  InputDecoration.collapsed(hintText: "What is on your mind?"),
             ),
           ),
           IconButton(
-            icon: Icon(Icons.send),
+            icon: Icon(Icons.send, color: Colors.orange), // Change the color of the icon to orange
             onPressed: () => _handleSubmitted(_textController.text),
           ),
         ],
@@ -74,8 +74,9 @@ class _MyChatScreenState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Chat Screen"),
-        automaticallyImplyLeading: false, // Remove the back button
+        title: Text("Chat"),
+        backgroundColor: Colors.amber,
+        automaticallyImplyLeading: false, 
       ),
       body: Column(
         children: [
@@ -84,10 +85,8 @@ class _MyChatScreenState extends State<ChatPage> {
               padding: EdgeInsets.all(8.0),
               reverse: true,
               itemCount: _messages.length,
-              itemBuilder: (_, int index) {
-                final message = _messages[index];
-                final isMe = index == 0; // Check if the message is from the user
-                return _buildMessage(message, isMe);
+              itemBuilder: (BuildContext context, int index) {
+                return _buildMessage(_messages[index], index % 2 == 0);
               },
             ),
           ),

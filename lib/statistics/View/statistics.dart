@@ -5,7 +5,9 @@ class StatsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Statistics'),
+        title: Text("Statistics"),
+        backgroundColor: Colors.amber,
+        automaticallyImplyLeading: false, 
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

@@ -37,36 +37,35 @@ class _NavState extends State<Nav> {
     double screenheight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: _screens.elementAt(selectedIndex),
-      bottomNavigationBar: BottomBarBubble(
-        selectedIndex: selectedIndex,
+      bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
+        selectedItemColor: Colors.amber, // Set the color of the selected icon to amber
+        unselectedItemColor: Colors.grey, // Set the color of the unselected icons to grey
+        currentIndex: selectedIndex,
+        onTap: _onItemTapped,
         items: [
-          BottomBarItem(
-            iconData: Icons.home,
-            // label: 'Home',
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
           ),
-          BottomBarItem(
-            iconData: Icons.chat,
-            // label: 'Chat',
+          BottomNavigationBarItem(
+            icon: Icon(Icons.chat),
+            label: 'Chat',
           ),
-          BottomBarItem(
-            iconData: Icons.analytics,
-            // label: 'Notification',
+          BottomNavigationBarItem(
+            icon: Icon(Icons.analytics),
+            label: 'Statistics',
           ),
-          // BottomBarItem(
-          //   iconData: Icons.logout,
-          //   // label: 'Calendar',
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.logout),
+          //   label: 'Calendar',
           // ),
-          BottomBarItem(
-            iconData: Icons.account_circle,
-            // label: 'Setting',
+          BottomNavigationBarItem(
+            icon: Icon(Icons.account_circle),
+            label: 'Profile',
           ),
         ],
-        onSelect: (index) {
-          setState(() {
-            selectedIndex = index;
-          });
-          // implement your select function here
-        },
       ),
     );
   }

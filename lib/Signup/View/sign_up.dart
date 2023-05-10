@@ -42,7 +42,7 @@ class _SignupPageState extends State<SignupPage> {
                 children: [
                   //logo edit//
                   const SizedBox(height: 10),
-                  Expanded(child: Image.asset('assets/logo.png')),
+                  Expanded(child: Image.asset('assets/logo2.png')),
                   const SizedBox(height: 0),
                   /////////////////////////
 
@@ -131,6 +131,12 @@ class _SignupPageState extends State<SignupPage> {
                     child: ElevatedButton(
                       onPressed: () => context.go('/nav/0'),
                       child: const Text('Sign Up'),
+                      // add orange color
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.orange,
+                        foregroundColor: Colors.white,
+                        minimumSize: const Size(double.infinity, 50),
+                      ),
                     ),
                   )
                 ],

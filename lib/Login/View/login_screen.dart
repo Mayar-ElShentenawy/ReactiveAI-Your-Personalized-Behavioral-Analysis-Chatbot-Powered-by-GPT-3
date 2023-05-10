@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // logo
-              Expanded(child: Image.asset('assets/logo.png')),
+              Expanded(child: Image.asset('assets/logo2.png')),
               const SizedBox(height: 30),
 
               // welcome back, you've been missed!
@@ -131,6 +131,10 @@ class LoginScreen extends StatelessWidget {
                   const SizedBox(width: 4),
                   TextButton(
                       child: const Text('Register now'),
+                      style: TextButton.styleFrom(
+                        backgroundColor: Colors.orange,
+                        foregroundColor: Colors.white,
+                      ),
                       //add brown color
 
                       onPressed: () => context.go('/SignupPage')
