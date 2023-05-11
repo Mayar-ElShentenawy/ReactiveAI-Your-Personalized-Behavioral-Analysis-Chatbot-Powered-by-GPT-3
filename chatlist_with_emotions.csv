@@ -1,0 +1,33 @@
+Date,Speaker,Text,emotion
+2023-05-10,20:23:33,Human: hello,neutral
+2023-05-10,20:23:33,AI:  Glad to see you. How can I help?,joy
+2023-05-10,20:23:55,Human: today is my graduation day,excitement
+2023-05-10,20:23:55,AI:  Congratulation!You should be proud.,pride
+2023-05-10,20:24:30,Human: yes but i couldn't find an outfit to wear,neutral
+2023-05-10,20:24:30,AI:  Do not worry. You can ask your friend's suggestions.,neutral
+2023-05-10,20:24:45,Human: i want your suggestion,neutral
+2023-05-10,20:24:45,AI:  what do you want to wear?,neutral
+2023-05-10,20:25:11,Human: formal clothes,neutral
+2023-05-10,20:25:11,AI:  What is formal clothes?,curiosity
+2023-05-10,20:25:34,Human: it is the outfit we wear to a formal event,neutral
+2023-05-10,20:25:34,AI:  I see what you mean.,approval
+2023-05-10,20:25:51,"Human: so, can you suggest an outfit?",curiosity
+2023-05-10,20:25:51,"AI:  Sure I can. Why don't you try this white shirt, black pants and a pair of shoes?",neutral
+2023-05-10,20:26:19,Human: yes that is a very good suggestion thank you so much,gratitude
+2023-05-10,20:26:19,AI:  You are welcome.,gratitude
+2023-05-10,20:26:37,Human: what are you doing now anyways?,neutral
+2023-05-10,20:26:37,AI:   I am helping people to find what they need.,caring
+2023-05-10,20:27:01,Human: ohh that's a good deed,admiration
+2023-05-10,20:27:01,AI:  I am glad you like it. Do you want to ask me some questions?,curiosity
+2023-05-10,20:27:16,Human: yes i'm curious,curiosity
+2023-05-10,20:27:16,AI:   What do you want to know?,neutral
+2023-05-10,20:27:28,Human: what is your name?,neutral
+2023-05-10,20:27:28,AI:   My name is AI,neutral
+2023-05-10,20:27:44,Human: okay and how old are you ai?,neutral
+2023-05-10,20:27:44,AI:    I am a very young AI. I was born in 2035.,neutral
+2023-05-10,20:27:59,Human: haha that is funny,amusement
+2023-05-10,20:27:59,AI:    I am glad you like it.,joy
+2023-05-10,20:28:24,Human: okay i am going to get ready now chat to you later,neutral
+2023-05-10,20:28:24,AI:   Do not forget to thank your friend.,neutral
+2023-05-10,20:29:20,"Human:i will definitely, thanks ai",gratitude
+2023-05-10,20:29:20,AI:Okay bye. Be safe.,caring
