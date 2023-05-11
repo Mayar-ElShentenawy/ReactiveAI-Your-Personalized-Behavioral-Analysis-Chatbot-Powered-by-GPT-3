@@ -1,4 +1,4 @@
-Date,Speaker,Text,emotion
+Date,Time,speaker:Text,emotion
 2023-05-10,20:23:33,Human: hello,neutral
 2023-05-10,20:23:33,AI:  Glad to see you. How can I help?,joy
 2023-05-10,20:23:55,Human: today is my graduation day,excitement
